@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flexible {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.half-width {
+    width: 45%;
+}
+
+.img-area img {
+    width: 100%;
+}
+
+.title-area h1 {
+    font-size: 50px;
+}
+
+.title-area h1 span {
+    color: orange;
+    font-size: 45px;
+}
+
+#exp-section .exp-baby-dev h3,
+#exp-section .exp-full-stack h3,
+.title-area h3 {
+    margin-bottom: 20px;
+    color: orange;
+}
+
+.dream-title-area a,
+.title-area a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange, purple);
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+#header-section {
+    margin-bottom: 100px;
+    background: url(images/top-banner.png) no-repeat;
+}
+
+.dream-title-area h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.dream-title-area h3 {
+    margin-bottom: 30px;
+}
+
+#dream-big-section {
+    background: url(images/dream-bg.png) no-repeat right;
+    margin-bottom: 100px;
+}
+
+#exp-section {
+    height: 500px;
+    margin-bottom: 100px;
+    background: url(images/exp-bg.png) no-repeat;
+    background-position-y: center;
+}
+
+#exp-section .flexible {
+    display: flex;
+    align-items: start;
+}
+
+#exp-section h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.shadow {
+    padding: 40px 20px;
+    box-shadow: 10px 10px 30px gray;
+}
+
+.exp-baby-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+.exp-full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient( 180deg, rgb(22, 37, 253), rgb(240, 102, 240));
+    border-image-slice: 1;
+}
+
+#exp-section .exp-baby-dev h2,
+#exp-section .exp-full-stack h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#exp-section div {
+    height: 80%;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 20px;
+}
